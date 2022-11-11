@@ -9,9 +9,12 @@
     <title>Hello</title>
 </head>
 <body>
+    <div id="exercise">
     <!-- TItolo -->
-        <h1 id="title">{{ message }}</h1>
-
+        <h1>{{ title }}</h1>
+        <!-- Image -->
+        <img :src="image.source" :alt="image.message">
+    </div>
         <!-- JS -->
     <script src="main.js"></script>
 </body>
